@@ -1,4 +1,4 @@
-# 墨格练字 · HanziInk
+# 墨格练字
 
 <p>
   <img alt="platform" src="https://img.shields.io/badge/platform-Android%2012%20%2F%20HarmonyOS%204.2-3DDC84">
@@ -6,6 +6,8 @@
   <img alt="size" src="https://img.shields.io/badge/APK-4.6%20MB-informational">
   <img alt="license" src="https://img.shields.io/badge/license-MIT-green">
 </p>
+
+> 仓库名使用拼音 `moge-lianzi`（GitHub 仓库名只支持 ASCII 字符），项目正式名称为「墨格练字」。
 
 面向 **华为 MatePad Pro 11（GOT-W29，HarmonyOS 4.2.0）+ M-Pencil 2** 的练字应用。
 Android 原生实现（HarmonyOS 4.x 兼容 APK），针对手写笔的压感与高频采样做了专门优化，
@@ -128,7 +130,7 @@ adb shell am start -n com.lz.hanzi/.MainActivity
 ## 目录结构
 
 ```
-HanziInk/
+墨格练字/
 ├── app/src/main/
 │   ├── java/com/lz/hanzi/
 │   │   ├── MainActivity.java        练字主界面：工具栏、保存、状态栏
