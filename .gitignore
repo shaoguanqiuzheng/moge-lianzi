@@ -1,0 +1,21 @@
+# Gradle / build outputs
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# 本地环境配置（含本机 SDK 路径，不能提交）
+local.properties
+
+# IDE
+*.iml
+.idea/
+.DS_Store
+
+# 打包产物与截图产物
+dist/
+*.apk
+*.aab
+*.keystore
+*.jks
